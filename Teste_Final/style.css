@@ -1,0 +1,33 @@
+#container{
+    text-align: center;
+}
+
+
+#labelA{
+    float: left;
+    margin-left: 250px;
+}
+
+#labelB{
+    margin-left: 300px;
+}
+#pontos-a{
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    float: left;
+    margin-left: 200px;
+}
+
+#pontos-b{
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    float: right;
+    margin-right: 200px;
+}
+
+#games, #score{
+    position:static;
+    text-align: center;
+}
